@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 #PACKAGE_URL = 'git+https://github.com/<path_to_repository>@starter_package'
 PACKAGE_URL = 'git+https://github.com/dexgus/as_custom_function@starter_package'
 
-class MultiplyByFactor<YourInitials>(BaseTransformer):
+class MultiplyByFactorAG(BaseTransformer):
 
     def __init__(self, input_items, factor, output_items):
 
